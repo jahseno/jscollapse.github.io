@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="normlalize.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="nav.css">
+  
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="https://www.youtube.com/c/eaJMusic">Favorite Artist</a>
+    <a href="https://www.instagram.com/jah.ones/">Socials</a>
+    <a href="#Contacts">Contacts</a>
+    <a href="#Feedback">Feedback</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</head>
+
+<body>
+	<p style="text-align:center; color:rgb(70, 62, 118)">
+		<img src="rajah.jpg" height="270"width="210">
+
+	<div class="info">
+			<p>NAME: Rajah G.Seno</p>
+			<p>AGE: 20 years old</p>
+			<p>ADDRESS: BRGY. #5 Talakag,Bukidnon</p>
+	</div>
+</body>
+  <script>
+      function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+      }
+  </script>
+</html>
+
